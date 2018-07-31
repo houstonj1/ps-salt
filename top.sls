@@ -1,3 +1,4 @@
 base:
-  'salt-minion*':
+  '*minion':
     - nodejs-package
+    - hwaas-site
