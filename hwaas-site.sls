@@ -12,3 +12,10 @@ hwaas-source:
     - name: https://github.com/floyd-may/hwaas.git
     - rev: master
     - target: /home/hwaas/hwaas-site
+
+hwaas-npm-install:
+  cmd.wait:
+    - name: npm install
+    - cwd: /home/hwaas/hwaas-site
+    - watch:
+      - git: hwaas-source
