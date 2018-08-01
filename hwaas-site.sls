@@ -21,7 +21,7 @@ hwaas-npm-install:
       - git: hwaas-source
 
 hwaas-build-script:
-  - cmd.wait:
+  cmd.wait:
     - name: npm run-script build
     - cwd: /home/hwaas/hwaas-site
     - watch:
