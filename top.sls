@@ -1,4 +1,4 @@
 base:
-  'minion':
+  'minion*':
     - nodejs-package
     - hwaas-service
