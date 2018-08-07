@@ -1,7 +1,7 @@
 hwaas-ssl:
   cert-path:
     /etc/nginx/hwaas.local.crt
-  cert-let-path:
+  cert-key-path:
     /etc/nginx/hwaas.local.crt.key
   cert-contents: |
     -----BEGIN CERTIFICATE-----
