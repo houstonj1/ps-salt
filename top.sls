@@ -1,5 +1,5 @@
 base:
-  'roels:hwaas-site':
+  'roles:hwaas-web':
     - match: grain
     - nodejs-package
     - hwaas-service
